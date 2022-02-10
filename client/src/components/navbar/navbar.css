@@ -1,5 +1,33 @@
-.nav_box {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.nav__box {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+}
+.container-logo {
+  width: 30%;
+  min-width: 200px;
+}
+.container-nav {
+  width: 40%;
+  margin-right: 10%;
+}
+.container-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-link {
+  color: #000;
+  font-size: 1.125rem;
+  text-decoration: none;
+  font-family: "roboto";
+}
+.nav-link:hover {
+  color: rgb(70, 70, 70);
+  text-shadow: 1px 1px 5px rgb(70, 70, 70, 0.3),
+    -1px -1px 5px rgba(70, 70, 70, 0.3);
+  transition: 100ms ease-in;
 }
