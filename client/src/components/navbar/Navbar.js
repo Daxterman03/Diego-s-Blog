@@ -1,12 +1,13 @@
 import React from "react";
 import "./navbar.css";
-// import logo from './logoNav.png';
+import logo from './logoNav.png';
+
 
 const Navbar = () => {
   return (
     <nav className="nav__box">
       <div className="container-logo">
-        <image src={require('./logoNav.png')} alt="logo blog diego & diego web developers"/>
+        <img id="logo-nav" src={logo} width="120px" height="120px" alt="Logo Diego & Diego Blog"/>
       </div>
       <div className="container-nav">
         <ul>

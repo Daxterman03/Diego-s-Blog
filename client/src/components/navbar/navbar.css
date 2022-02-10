@@ -8,6 +8,7 @@
 .container-logo {
   width: 30%;
   min-width: 200px;
+  text-align: center;
 }
 .container-nav {
   width: 40%;
